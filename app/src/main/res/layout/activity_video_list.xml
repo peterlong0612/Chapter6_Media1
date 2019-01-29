@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
     tools:context=".Video.VideoListActivity">
 
     <Button
@@ -11,14 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_blue_dark"
         android:onClick="feed"
-        android:text="refresh feed"
-        android:textAllCaps="false" />
+        android:text="Refresh"
+        android:textAllCaps="false"
+
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_video_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/btn_refresh"
         android:orientation="vertical"
         tools:listitem="@layout/video_item_list" />
