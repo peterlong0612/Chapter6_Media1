@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chapter6 media基础</string>
+    <string name="detail_text">Android Studio 用于构建原生库的默认工具是 CMake。
+        由于很多现有项目都使用构建工具包编译其原生代码，Android Studio 还支持 ndk-build。
+        如果您想要将现有的 ndk-build 库导入到您的 Android Studio 项目中，请参阅介绍如何配
+        置 Gradle 以关联到您的原生库的部分。不过，如果您在创建新的原生库，则应使用 CMake。</string>
+    <string name="video_list_button_name">Video List</string>
+</resources>
